@@ -1,0 +1,34 @@
+extends base.pug
+
+block style 
+    style
+        include ../static/style.css
+        
+block content 
+    #welcome 
+        h1 Welcome To Your Dream 
+        p We create future.... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste tenetur hic aut iure expedita et aspernatur, quasi optio neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus unde repellat labore perspiciatis omnis odio similique exercitationem iste debitis provident?
+
+    #services 
+        h1 SERVICES
+        #card 
+            .cards
+                h2 HipHop 
+                .imgClass
+                    h4 hello
+                h3 Join Fast!!! 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, placeat.
+            .cards
+                h2 Kathakkali 
+                .imgClass
+                    h4 hello
+                h3 Join Fast!!! 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, placeat.
+            .cards
+                h2 Classic
+                .imgClass
+                    h4 hello
+                h3 Join Fast!!! 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, placeat.    
+block script 
+    script(src="../static/index.js") 

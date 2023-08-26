@@ -1,0 +1,7 @@
+Name: Anurup Koli
+Age: 20
+Address: Koli Galli Raibag
+Email: anurupkoli01@gmail.com
+Mobile No: 8625976047
+Gender: male
+Query: Yes Please Try to Learn More Backend. Thankyou :)

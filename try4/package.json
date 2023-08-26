@@ -1,0 +1,19 @@
+{
+  "name": "learningbackend",
+  "version": "1.0.0",
+  "description": "nwe",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "anurup",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2"
+  }
+}

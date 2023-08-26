@@ -1,0 +1,7 @@
+Name: shivanshu
+Age: 50
+Address: jahalagha;
+Email: shivanshu@gmail.com
+Mobile No: 4861322
+Gender: male
+Query: no queries

@@ -1,0 +1,185 @@
+/* Icons Styling */
+.material-icons {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+body{
+    top: 0rem;
+    border: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .backImg{
+    width: 100vw;
+    height: 400vh;
+    z-index: -5;
+    opacity: .8;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+} */
+
+.background{
+    background-color: blue;
+    background-image:url("./backImg/bodyImg.jpg");
+    height:100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    position: absolute;
+    top: -30rem;
+    left: 0rem;
+    width: 100%;
+    height: 400vh;
+    z-index: -5;
+    opacity: .7;
+}
+
+
+/* Navigation Section */
+
+
+.navigation{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "left-nav  right-nav";
+    position: fixed;
+    top: 0rem;
+    background-color: white;
+    /* border: 2px solid blue; */
+}
+
+#left-nav{
+    margin: 2px;
+    grid-area: "left-nav";
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+#right-nav{
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    grid-area: "right-nav";
+    border: 2px solid red;
+    font-size: 17px;
+}
+
+#right-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 2em;
+}
+
+#right-nav a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-items{
+    margin: .2rem 1.2rem;
+}
+
+.material-icons:nth-child(2){
+    position: relative;
+    top: .2em;
+}
+
+.right-nav ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li:hover ul{
+    display: block;
+    background-color: white;
+}
+
+.secondary-list{
+    display:none;
+    position: absolute;
+    width: 10em;
+    border: 2px solid  black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0em;
+}
+
+.secondary-list li{
+    display: block;
+}
+
+.secondary-list li a{
+    display: block !important;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Classes Used */
+
+
+.main-head{
+    font-size: 25px;
+}
+
+.transform-underline{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.transform-underline::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    transform-origin: bottom left;
+    transition: all .25s ease-out;
+    transform: scale(0);
+}
+
+.transform-underline:hover::after{
+    transform: scale(1);
+}

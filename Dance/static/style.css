@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation::before{
+    /* border: 2px solid red; */
+    background-color: rgb(164, 163, 163);
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10.5vh;
+    z-index: -1;
+}
+
+#logo{
+    /* border: 2px solid green; */
+    width: 4rem;
+    height: 4rem;
+    margin-right: 10rem;
+}
+#logo img{
+    width: 4rem;
+    height: 4rem;
+}
+
+#nav ul{
+    display: flex;
+    /* border: 2px solid yellow; */
+}
+#nav ul li{
+    /* border: 2px solid blue; */
+    list-style: none;
+    padding: .3rem;
+    margin: .1rem 1.5rem;
+    transition: all .3s ease-out;
+}
+#nav ul li:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+#nav ul li:active a{
+    text-decoration: underline;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#welcome{
+    background: center/contain no-repeat url('./images/welcome.jpg');
+    border: 2px solid black;
+    margin: auto;
+    padding: 1rem;
+    height: 50vh;
+}
+
+#welcome::before{
+    content: "";
+    position: absolute;
+    background-image: url('./images/welcome.jpg');
+    /* background-color: red; */
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    z-index: -1;
+}
+#welcome h1{
+    text-align: center;
+    font-size: 60px;
+}
+#welcome p{
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#services{
+    padding-left: 2rem;
+}
+
+#services h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#card{
+    display: flex;
+}
+.cards{
+    width: 25%;
+    height: 50vh;
+    border: 2px solid red;
+    margin: 2rem 3.5rem;
+    padding: .5rem;
+    background-color: rgb(227, 227, 227);
+}
+.cards h2{
+    text-align: center;
+}
+.cards h4{
+    text-align: center;
+}
+
+.cards h3{
+    text-align: center;
+}
+.cards h3{
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cards p{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.imgClass{
+    width: 90%;
+    height: 20vh;
+    border: 2px solid green;
+    margin: auto;
+    background-color: white;
+}
+
+#footer{
+    background-color: gray;
+    padding: .7rem;
+}
+#footer h2{
+    text-align: center;
+}
