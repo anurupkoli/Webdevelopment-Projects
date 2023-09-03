@@ -3,7 +3,6 @@ const app = express();
 const fs = require('fs');
 const path = require('path');
 const mongoose = require('mongoose');
-const { boolean } = require('webidl-conversions');
 mongoose.connect('mongodb://127.0.0.1/Palazzo', {useNewUrlParser: true});
 const port = 8000;
 

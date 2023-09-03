@@ -13,3 +13,4 @@ let cl = document.getElementById('close');
 cl.addEventListener('click', toggleMenu);
 let menu = document.getElementById('menu');
 menu.addEventListener('click', toggleMenu);
+
